@@ -3,35 +3,34 @@
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .row {
-    clear: left;
-    margin: 0 auto;
-    width: 302px;
+  clear: left;
+  margin: 0 auto;
+  width: 302px;
 }
 
 .row > div {
-    float: left;
-    height: 100px;
-    width: 100px;
-    cursor: pointer;
+  float: left;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
 }
 
 .top {
-    border-bottom: 1px black solid;
+  border-bottom: 1px black solid;
 }
 
 .bottom {
-    border-top: 1px black solid; 
+  border-top: 1px black solid;
 }
 
 .left {
-    border-right: 1px solid black;
+  border-right: 1px solid black;
 }
 
 .right {
-    border-left: 1px solid black;
+  border-left: 1px solid black;
 }
-

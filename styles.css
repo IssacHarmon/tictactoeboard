@@ -33,3 +33,7 @@ h1 {
 .right {
     border-left: 1px solid black;
 }
+
+.row > div:hover {
+    cursor: pointer;
+}

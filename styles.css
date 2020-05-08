@@ -16,6 +16,7 @@ h1 {
     float: left;
     height: 100px;
     width: 100px;
+    cursor: pointer;
 }
 
 .top {
@@ -34,6 +35,3 @@ h1 {
     border-left: 1px solid black;
 }
 
-.row > div:hover {
-    cursor: pointer;
-}

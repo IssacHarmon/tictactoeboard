@@ -1,13 +1,26 @@
- #board {
+#board {
   padding-top: 3em;
   text-align: center;
   font-family: monospace;
- }
+}
 
 .row {
   clear: both;
   margin: 0 auto;
   width: 302px;
+}
+
+.btn-center {
+  display: block;
+  margin: 0 auto;
+  margin-left: 872px;
+  margin-top: 138px;
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+  background-color:#77b55a;
+  border-radius: 30%;
+  font-size: 18px;
+  padding: 15px 20px;
 }
 
 .row > div {

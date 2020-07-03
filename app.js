@@ -23,6 +23,9 @@ function disableCellsClicked() {
   }
 }
 
+
+//convoluted way to check a winning combo but this makes the most sense to me
+//a simpler method could be to loop through an array 
 function checkWin() {
   if (
     cells[0].textContent === cells[1].textContent &&
@@ -86,6 +89,8 @@ function checkWin() {
   }
 }
 
+//this manipulates the DOM by selecting a space and adding an X or O between the 
+//borders created on the index.html
 function cellClicked(event) {
   if (event.target.textContent === "X" || event.target.textContent === "O") {
     return;
@@ -105,7 +110,8 @@ function cellClicked(event) {
 }
 
 function gameReset() {
-    
+    //was going to write a function to reset game but created a button and styled 
+    //that instead. 
 }
 
 //needs to go into each array
